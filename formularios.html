@@ -8,6 +8,72 @@
 
 <body>
     <h1>Formularios</h1>
+    <form action="/datos" method="get">
+ <!-- campo de texto -->
+         <label for="texto">campo de texto</label>
+         <input type="text" id="texto" placeholder="ingrese texto">
+         <br><br>
+    <!-- campo de tipo password -->
+         <label for="clave">campo de contraseña</label>
+         <input type="password" id="clave" name="clave" placeholder="ingrese contraseña">
+         <br><br>
+    <!-- campo de correo -->
+         <label for="correo">campo para email</label>
+         <input type="email" id="correo" name="correo" placeholder="ingrese correo">
+         <br><br>
+    <!-- campo de texto para teléfono -->
+         <label for="telefono">campo telefono</label>
+         <input type="tel" id="telefono" name="telefono" minlength="1" maxlength="10">
+         <br><br>
+    <!-- campo para las url -->
+         <label for="rutas">campo para URL</label>
+         <input type="url" id="rutas" name="rutas">
+         <br><br>
+    <!-- campo para numeros -->
+         <label for="numero">campo para numeros</label>
+         <input type="number"  name="numero" id="numero">
+         <br><br>
+    <!-- campo tipo de rango -->
+         <label for="rango">campor de tipo rango</label>
+         <input type="range" id="rango" name="rango">
+         <br><br>
+    <!-- campo para las fechas -->
+         <label for="fecha">campo de tipo fecha</label>
+         <input type="date" name="fecha" id="fecha">
+         <br><br>
+    <!-- campo de tipo hora -->
+         <label for="hora">campo de tipo hora</label>
+         <input type="time" id="hora" name="hora">
+         <br><br>
+    <!-- campo de tipo fecha y hora -->
+         <label for="datetime">campo datetime</label>
+         <input type="datetime local" id="datetime" name="datetime">
+         <br><br>
+    <!-- campo de mes -->
+         <label for="mes">campo para el mes</label>
+         <input type="month" id="mes" name="mes">
+         <br><br>
+    <!-- campo para la semana -->
+         <label for="semana">campo para la semana</label>
+         <input type="week" id="semana" name="semana">
+         <br><br>
+    <!-- campo para seleccionar colores -->
+          <label for="colores">campo para los colores</label>
+          <input type="color" id="colores" name="colores">
+          <br><br>
+    <!-- campo para checkbox -->
+         <label for="seleccion">campo para seleccionar</label>
+         <input type="checkbox" id="seleccion" name="seleccion">
+         <br><br>
+    <!-- campo de archivo -->
+         <label for="archivo">campo de tipo archivo</label>
+         <input type="file" id="archivo" name="archivo">
+         <br><br>
+    <!-- etiqueta para un boton -->
+        <input type="submit" value="enviar">
+        <br><br>
+        <button type="submit">mi boton</button>
+        
 
 
 
@@ -19,6 +85,21 @@
 
 
 
-    
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
