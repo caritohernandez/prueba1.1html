@@ -1,0 +1,29 @@
+p{
+color: blueviolet;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+color: blue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+#intro {
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+#logo {
+    width: 150px;
+    border-radius: 10px;
+    }
+
+.tipos {    
+    color: red;    
+    font-weight: bold;
+    }
+
+    a {
+        color: blue;
+        text-decoration: none;
+    }       
