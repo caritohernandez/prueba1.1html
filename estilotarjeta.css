@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine; /*aplica color al fondo*/
+    margin: 0; /*elimina la margen que viene predeterminada*/
+    padding: 0;
+}
+.container {
+    display: flex; /*organiza los icnonos de fomra flexible*/
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+section article {
+    transition: box-shadow 0.33s ease; /*aplica transicion de 0,3 seg cuando la tarjeta se configura*/
+    background-color: white;
+    margin: 16px 0; /*agrega margen vertical*/
+    border-radius: 8px; /*redondea esquinas*/
+    padding: 4px 0; /*espacios*/
+    cursor: pointer; /*cuando el cursor ingrese a la tarjeta cambia el etilo*/
+}
+section article:hover {
+    box-shadow: 0 1,6px 6,4px rgb(26,27,26,0,3);
+}
+section article h2, section article p {
+    margin: 16px;
+}
+footer {
+    background-color: black;
+    padding: 48px;
+    color: #fff;
+}
+footer section {
+    float: right;
+    margin: 0;
+}
+footer a{
+    transition: color 0,3s ease;
+    color: brown;
+    text-decoration: none;
+}
+footer a:hover {
+    color: brown;
+}
+header {
+    background-color: #222;
+    padding: 1px;
+}
+header h1 {
+    color: #fff;
+}
